@@ -20,7 +20,7 @@
       grid-template-columns: 100px;
       grid-gap: 12px;
       max-width: 350px;
-      margin: 10px;
+      margin: 8px;
   }
   
   label {
@@ -37,4 +37,8 @@
   input[type='checkbox']{
     width: 40px;
     margin-left: -13px;
+  }
+  
+  select{
+    width: 185px;
   }
