@@ -1,0 +1,40 @@
+.row{
+    max-width: 1080px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 33%;
+    min-width: 340px;
+    text-align: left;
+  }
+  
+  .grid {
+      display: grid;
+      grid-template-columns: 100px;
+      grid-gap: 12px;
+      max-width: 350px;
+      margin: 10px;
+  }
+  
+  label {
+      grid-column: 1 / 2;
+      text-align: right;
+  }
+   
+  input
+  {
+    grid-column: 2 / 3;
+    width: 180px
+  }
+  
+  input[type='checkbox']{
+    width: 40px;
+    margin-left: -13px;
+  }

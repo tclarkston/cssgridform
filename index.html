@@ -1,0 +1,76 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="style.css?v=1.0">
+
+</head>
+
+<body>
+  <form action="">
+    <div class="row">
+      <div class="column">
+        <div class="grid">
+          <label for="firstName">First Name</label>
+          <input id="firstName" type="text">
+
+          <label for="lastName" class="last-name">Last Name</label>
+          <input id="lastName" type="text">
+
+          <label for="locked">Locked</label>
+          <div>
+            <input id="locked" type="checkbox">
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="grid">
+          <label for="email">Email:</label>
+          <input id="email" type="email">
+
+          <label for="dob" class="last-name">Date of Birth</label>
+          <input id="dob" type="date">
+
+          <label for="cars">Favorite Car:</label>
+          <select name="cars" id="cars">
+            <option value="porsche">Porsche</option>
+            <option value="ferrari">Ferrari</option>
+            <option value="lamborghini">Lamborghini</option>
+            <option value="other">Other</option>
+          </select>
+
+        </div>
+      </div>
+      <div class="column">
+        <div class="grid">
+          <label for="address1">Address 1</label>
+          <input id="address1" type="text">
+
+          <label for="address2">Address 2</label>
+          <input id="address2" type="text">
+
+          <label for="city">City</label>
+          <input id="city" type="text">
+
+          <label for="state">state</label>
+          <input id="state" type="text">
+
+          <label for="zip">Zip</label>
+          <input type="zip" pattern="[0-9]{5}" title="zip code" />
+        </div>
+      </div>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  <script src="scripts.js"></script>
+</body>
+</html>
+
